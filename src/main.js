@@ -1,5 +1,5 @@
 import {k} from "./kaboomCtx.js"
-import {scaleFactor} from "./constants.js";
+import {dialougeData, scaleFactor} from "./constants.js";
 import {displayDialouge} from "./utils.js";
 
 k.loadSprite("spritesheet", "./spritesheet.png", {
@@ -57,7 +57,7 @@ k.scene("main", async () => {
                 if (boundary.name) {
                     player.onCollide(boundary.name, () => {
                         player.isInDialouge = true
-                        displayDialouge("test", () => {
+                        displayDialouge(dialougeData[boundary.name], () => {
                             player.isInDialouge = false
                         })
                     })
