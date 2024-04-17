@@ -3,6 +3,7 @@ export const scaleFactor = 4
 export const dialougeData = {
     pc: `This is my PC. I work mostly in SpringBoot these days. I also like Golang and C++. Anyway regardless of the language, I just like programming.
     Here is my <a href="https://github.com/its-me-ojas" target="_blank">Github</a>!`,
+    "cs-degree": `I'm gonna hang my CS degree here once I get it. I'm currently in my sophomore year of college. I'm excited to graduate and start working full-time!`,
     "sofa-table": `That's my sofa. I like to relax here and watch YouTube.`,
     tv: `That's my TV. I've been watching tech youtubers a lot recently like :
    <a href="https://www.youtube.com/@ThePrimeTimeagen" target="_blank">Theprimeagen</a>, <a href="https://www.youtube.com/@t3dotgg" target="_blank">Theo - t3.gg</a>,
